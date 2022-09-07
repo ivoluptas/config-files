@@ -1,0 +1,33 @@
+[module/bspwm]
+type = internal/bspwm
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+pin-workspaces = true
+
+ws-icon-default = ""
+
+
+format = <label-state> <label-mode>
+
+label-focused = 
+label-focused-background = ${colors.shade_3}
+label-focused-underline= ${colors.shade_3}
+label-focused-padding = 1
+label-focused-foreground = ${colors.white}
+
+label-occupied = ﳁ
+label-occupied-padding = 1
+label-occupied-background = ${colors.shade_3}
+label-occupied-foreground = ${colors.white}
+
+label-urgent = %icon%
+label-urgent-padding = 1
+
+label-empty = 
+label-empty-foreground = ${colors.white}
+label-empty-padding = 1
+label-empty-background = ${colors.shade_3}
+;format-foreground = #959595
+;format-background = #FFFFFF

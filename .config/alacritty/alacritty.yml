@@ -1,0 +1,31 @@
+font:
+  size: 10
+  normal:
+    family: Menlo
+    style: Regular
+window:
+  opacity: 0.9
+colors:
+  primary:
+    background:     "#241c21"
+    foreground:     "#fae4e3"
+  normal:
+    black:   '0xeb008c'
+    red:     '0xeb009c'
+    green:   '0xeb00b0'
+    yellow:  '0xeb00cf'
+    blue:    '0xeb00eb'
+    magenta: '0xd700eb'
+    cyan:    '0xc300eb'
+    white:   '0xb000eb'
+
+  # Bright colors
+  bright:
+    black:   '0xff0098'
+    red:     '0xff00a9'
+    green:   '0xff00bf'
+    yellow:  '0xff00e1'
+    blue:    '0xff00ff'
+    magenta: '0xe900ff'
+    cyan:    '0xd400ff'
+    white:   '0xbf00ff'

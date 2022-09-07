@@ -1,0 +1,84 @@
+[module/off]
+type = custom/text
+content ="  "
+click-left = poweroff
+content-background = ${colors.shade_1}
+content-foreground = ${colors.white}
+
+[module/reboot]
+type = custom/text
+content =" ⭘ "
+click-left = reboot
+content-background = ${colors.shade_1}
+content-foreground = ${colors.white}
+
+[module/logout]
+type = custom/text
+click-left = pkill x
+content ="  "
+content-background = ${colors.shade_1}
+content-foreground = ${colors.white}
+
+[module/date]
+type = internal/date
+interval = 1
+
+date = %l:%M %p
+date-alt = %d %h %A
+
+label ="  %date%  "  
+label-foreground = ${colors.white}
+label-background = ${colors.shade_2}
+
+[module/alsa]
+type = internal/alsa
+
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+
+master-mixer = Master
+
+interval = 5
+
+format-volume = <ramp-volume> <label-volume>
+format-volume-background = ${colors.shade_3}
+format-volume-padding = 2
+
+format-muted = <label-muted>
+format-muted-prefix = 婢
+format-muted-background = ${colors.shade_3}
+format-muted-padding = 2
+
+label-volume = %percentage%%
+
+label-muted = " Muted"
+label-muted-foreground = ${colors.foreground}
+
+ramp-volume-0 = 奄
+ramp-volume-1 = 奔
+ramp-volume-2 = 墳
+
+ramp-headphones-0 = 
+
+[module/memory]
+type = internal/memory
+interval = 1
+label = %gb_used%
+format =  <label>
+format-padding = 1
+format-foregorund = ${colors.foreground}
+format-background = ${colors.shade_4}
+
+[module/search]
+type = custom/text
+content ="  "
+click-left = ~/.config/rofi/launchers/type-2/launcher.sh
+content-background = ${colors.shade_1}
+content-foreground = ${colors.white}
+
+[module/ss]
+type = custom/text
+content ="  "
+content-background = ${colors.shade_5}
+content-foreground = ${colors.white}

@@ -1,0 +1,17 @@
+[colors]
+background = #272640
+white = #FFFFFF
+tp = 00000000
+shade_1 = #500035
+shade_2 = #6c0048
+shade_3 = #7c0052
+shade_4 = #8c005d
+shade_5 = #9f0069
+
+
+#background-alt = #006466
+#foreground = #f7fddb
+#primary = #F7FDDB
+#secondary = #8abeb7
+#alert = #A54242
+#disabled = #707880

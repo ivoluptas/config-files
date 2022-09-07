@@ -1,0 +1,32 @@
+[bar/left]
+width = 9.5%
+height = 22pt
+radius = 5
+;offset-y = 30
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 5pt
+border-color = #00000000
+line-size = 3pt
+
+font-0 = "FuraMono Nerd Font:style=Medium:size=13;3"
+module-margin = 0
+modules-left = search bspwm
+
+[bar/right]
+width = 24.81%
+height = 22pt
+radius = 5
+;offset-y = 30
+offset-x = 75.2001%
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 5pt
+border-color = #00000000
+line-size = 3pt
+
+font-0 = "FuraMono Nerd Font:style=Medium:size=13;3"
+module-margin = 0
+modules-right = memory alsa date logout reboot off
